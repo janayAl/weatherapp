@@ -1,0 +1,101 @@
+
+h1 {
+    background-image: linear-gradient(to right, rgb(65, 122, 207), rgb(3, 3, 77));
+    color: white;
+    border: 0pt;
+    margin-top: 0px; /* margin top needs to be set at 0 in order for the h1 tag to not have margin at the top */
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    font-size: 27pt ;
+    
+
+}
+
+body {
+margin: 0;/* margin top needs to be set at 0 in order for the h1 tag to not have margin at the top*/
+font-family: sans-serif;
+
+}
+
+.inputValue {
+    
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 250px;
+    background: white;
+    font-size: 20px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+#search {
+    border-color: rgb(93, 154, 233);
+    background-color:rgb(93, 154, 233);
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.cities {
+    
+    
+}
+
+#samplecity { 
+    border: 2px solid black;
+    border-color: lightgrey;
+    background-color: lightgrey;
+    
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius:  5px;
+    
+    
+    
+    
+}
+
+.contentContainer {
+    display:flex;
+    padding-left: 24px;
+    padding-right: 24pt;
+    
+}
+
+
+.leftContainer {
+    /* margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border-radius: 5px; */
+   
+    display: flex;
+    flex-direction: column;
+    flex:0.25;
+    
+    
+}
+.rightContainer {
+    flex:0.75;
+    padding-left: 16px;
+    padding-right: 16px;
+}

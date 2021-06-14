@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--h1 tag with the heading, h2 tag for the city search container on the left, 
+        h3 tag for the current city wather, h4 tag for the 5 day forcast -->
+    <h1> Weather Dashboard </h1>
+
+<div class="contentContainer">
+    <div class="leftContainer">
+        <h2>Search for a City:</h2>
+        <!--include search button and input window in this div-->
+        <!--p tags for input text value vs input as it's own tag-->
+        <input type="text" class="inputValue" placeholder="San Diego">
+        <br>
+
+        <p>
+            <button id="search" type="Search" value="Search">
+                Search</button>
+        </p>
+        <div>
+                <div id="samplecity">Austin</div>
+                <br>
+                <div id="samplecity">Chicago</div>
+                <br>
+                <div id="samplecity">New York</div>
+                <br>
+                <div id="samplecity">Orlando</div>
+                <br>
+                <div id="samplecity">San Francisco</div>
+                <br>
+                <div id="samplecity">Seattle</div>
+                <br>
+                <div id="samplecity">Denver</div>
+                <br>
+                <div id="samplecity">Atlanta</div>
+
+        </div>
+    </div>
+    <div class="rightContainer">
+        <div class="dayContainer">
+            <p class="name"></p>
+            <p id="date"></p>
+            <p class="desc"></p>
+            <p class="temp"></p>
+            <p class="wind"></p>
+            <p class="humidity"></p>
+            <p class="uvi"></p>
+        
+        </div>
+
+    </div>
+    
+   </div>
+
+    <!---button or input type=search??->
+    <button>search</button> <!-->
+
+    <!--clickable list of cities and href/ a tag attached with underline??place holder-->
+<!--  
+   <section>
+        <div class="display">
+            <h3 class="name" id="date">city</h3>
+            <p class="desc">description:</p>
+            <p class="temp">temperature</p>
+            <p class="wind">wind:</p>
+            <p class="humidity">humidity:</p>
+            <p class="uvi">UV Index:</p>
+        </div>
+    </section>
+-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script> 
+
+
+
+</body>
+
+</html>
